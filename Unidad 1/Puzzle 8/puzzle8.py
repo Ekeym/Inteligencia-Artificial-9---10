@@ -139,23 +139,15 @@ if __name__ == "__main__":
     print("Resultado:", juego.solucion)
 
     def ejecutar_movimientos():
-        # Verificamos si aún hay movimientos pendientes
         if juego.solucion:
-            # Saca el valor del primer movimiento de la lista
             siguiente_movimiento_valor = juego.solucion.pop(0)
-            
-            # Encuentra el índice de la ficha que tiene ese valor
-            # Este es el cambio crucial
             siguiente_movimiento_indice = juego.numbers.index(siguiente_movimiento_valor)
-
-            # Realiza el movimiento en la interfaz
             juego.mover(siguiente_movimiento_indice)
             
-            # Si aún quedan movimientos, programa el siguiente paso
             if juego.solucion:
                 root.after(500, ejecutar_movimientos)
                 
-    # Llama a la función para empezar la animación después de 1 segundo
     root.after(1000, ejecutar_movimientos)
 
     root.mainloop()
+
