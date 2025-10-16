@@ -1,0 +1,78 @@
+dishes:
+  - id: margherita_pizza
+    name: Pizza Margherita
+    ingredients: [masa, tomate, mozzarella, albahaca]
+    tags: [vegetariano, caliente]
+    popularity: 0.7
+
+  - id: pollo_asado
+    name: Pollo Asado
+    ingredients: [pollo, ajo, limón, papas]
+    tags: [sin_gluten, caliente]
+    popularity: 0.6
+
+  - id: ensalada_quinoa
+    name: Ensalada de Quinoa
+    ingredients: [quinoa, pepino, tomate, aguacate, limon]
+    tags: [vegano, sin_gluten, frio, ligero]
+    popularity: 0.5
+
+  - id: curry_garbanzo
+    name: Curry de Garbanzo
+    ingredients: [garbanzo, coco, curry, arroz]
+    tags: [vegano, picante, caliente]
+    popularity: 0.55
+
+  - id: salmon_plancha
+    name: Salmón a la Plancha
+    ingredients: [salmon, limon, pimienta, aceite_oliva]
+    tags: [sin_gluten, caliente]
+    popularity: 0.65
+
+  - id: huevos_rancheros
+    name: Huevos Rancheros
+    ingredients: [huevo, tortilla, tomate, chile, cebolla]
+    tags: [desayuno, picante, caliente]
+    popularity: 0.58
+
+  - id: gazpacho
+    name: Gazpacho
+    ingredients: [tomate, pepino, pimiento, aceite_oliva, ajo]
+    tags: [vegano, frio, ligero]
+    popularity: 0.52
+
+  - id: bowl_frutas_yogur
+    name: Bowl de Frutas con Yogur
+    ingredients: [yogur, fresa, platano, miel]
+    tags: [desayuno, frio, ligero]
+    popularity: 0.56
+
+ingredients:
+  masa: {available: true}
+  tomate: {available: true}
+  mozzarella: {available: true}
+  albahaca: {available: true}
+  pollo: {available: true}
+  ajo: {available: true}
+  limón: {available: true}
+  papas: {available: true}
+  quinoa: {available: true}
+  pepino: {available: true}
+  aguacate: {available: true}
+  limon: {available: true}
+  garbanzo: {available: true}
+  coco: {available: true}
+  curry: {available: true}
+  arroz: {available: true}
+  salmon: {available: true}
+  pimienta: {available: true}
+  aceite_oliva: {available: true}
+  huevo: {available: true}
+  tortilla: {available: true}
+  chile: {available: true}
+  cebolla: {available: true}
+  pimiento: {available: true}
+  yogur: {available: true}
+  fresa: {available: true}
+  platano: {available: true}
+  miel: {available: true}
