@@ -1,0 +1,69 @@
+
+/* Global tweaks */
+:root {
+  --card-bg: rgba(255,255,255,0.65);
+  --chip-bg: rgba(0,0,0,0.08);
+  --chip-text: #222;
+  --danger: #d9534f;
+  --warn: #f0ad4e;
+  --ok: #5cb85c;
+}
+
+.block-container {
+  padding-top: 1.2rem !important;
+  padding-bottom: 2rem !important;
+}
+
+.badge {
+  display: inline-block;
+  padding: 0.15rem 0.55rem;
+  margin: 0 0.25rem 0.25rem 0;
+  border-radius: 999px;
+  font-size: 0.78rem;
+  background: var(--chip-bg);
+  color: var(--chip-text);
+  border: 1px solid rgba(0,0,0,0.05);
+}
+
+.card {
+  border-radius: 18px;
+  padding: 1rem 1.1rem;
+  margin: 0.6rem 0;
+  background: var(--card-bg);
+  box-shadow: 0 8px 30px rgba(0,0,0,0.05);
+  border: 1px solid rgba(0,0,0,0.05);
+  backdrop-filter: blur(6px);
+}
+
+.card h3 {
+  margin: 0 0 0.2rem 0;
+}
+
+.kpi {
+  border-radius: 14px;
+  padding: 0.8rem 1rem;
+  text-align: center;
+  background: var(--card-bg);
+  border: 1px solid rgba(0,0,0,0.06);
+}
+
+hr.soft {
+  border: none;
+  border-top: 1px solid rgba(0,0,0,0.08);
+  margin: 0.6rem 0 0.9rem 0;
+}
+
+.smallmuted { font-size: 0.82rem; opacity: 0.75; }
+
+/* Buttons row spacing */
+.row-buttons > div { display: inline-block; margin-right: 0.5rem; }
+
+/* Tag colors */
+.badge.tag-vegano { background: #dff6dd; color: #2b7a0b; }
+.badge.tag-vegetariano { background: #e7f3ff; color: #0b5ed7; }
+.badge.tag-sin_gluten { background: #fff4e5; color: #b45f06; }
+.badge.tag-picante { background: #fde2e2; color: #b42318; }
+.badge.tag-frio { background: #eaf4fc; color: #084298; }
+.badge.tag-caliente { background: #fff1f0; color: #d4380d; }
+.badge.tag-ligero { background: #f2f6ff; color: #1d39c4; }
+.badge.tag-desayuno { background: #fffbe6; color: #ad6800; }
